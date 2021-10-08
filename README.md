@@ -23,6 +23,10 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+### Go through whole functions
+
+<img src='gif/all.gif' width='300'/>
+
 ### Log in, log out, and app icon
 
 <img src='gif/log_in_out.gif' width='300'/>
