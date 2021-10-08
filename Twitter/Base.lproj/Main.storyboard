@@ -110,7 +110,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Home" id="JFQ-Wg-3Pw">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="jbe-lm-aWI">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" systemColor="tintColor"/>
                             <connections>
                                 <action selector="onLogout:" destination="DQq-v7-EX4" id="roX-TE-mJz"/>
                             </connections>
@@ -133,6 +133,9 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="M34-0f-eKX">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="DQq-v7-EX4" kind="relationship" relationship="rootViewController" id="OqJ-nC-3L9"/>
                     </connections>
@@ -148,6 +151,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
